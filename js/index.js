@@ -1,8 +1,4 @@
-// validation login
-if (localStorage.getItem("islogin") == "true") {
-} else {
-  window.location.href = "http://127.0.0.1:5500/b2b-ui/project.html";
-}
+
 
 //   toggle sidbar
 $(document).on('click', '.toggleSidebar', function () {
